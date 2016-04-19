@@ -1,11 +1,9 @@
 ###Using seeds.rb and new app 
 
 ####Create new app
-```rails new demoapp-01 -B -T
-
-cd demoapp-01
-
-bundle install --local```
+```rails new demoapp-01 -B -T  
+cd demoapp-01  
+bundle install --local  ```
 
 #####Create model 
 

@@ -4,25 +4,40 @@
 Create new app
 ```rails new demoapp08 -B -T
 cd demoapp-08
-bundle install --local```
+bundle install --local
+```
 Create model 
-```rails g model Person name:string```
+```
+rails g model Person name:string
+```
 Run rake command 
-```rake db:reset```
+```
+rake db:reset
+```
 Open Rails Console
-``` rails c 
+``` 
+rails c 
 Person.count
-=>0```
+=>0
+```
 Open db/seeds.rb with sublime text
-```subl db/seeds.rb```
-###seeds.rb data
+```
+subl db/seeds.rb
+```
+###seeds.rb data 
 ####Create a new person on seeds.rb
-```people = Person.create([{name: "Oğuz"}])```
+```
+people = Person.create([{name: "Oğuz"}])
+```
 Rub rake command
-```rake db:seed```
+```
+rake db:seed
+```
 ###Open rails console
-```rails c
+```
+rails c
 Person.count
 =>1
 Person.first.name
-=>"Oğuz"```
+=>"Oğuz"
+```

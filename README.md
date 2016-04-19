@@ -7,7 +7,6 @@ cd demoapp-01
 
 bundle install --local```
 
-
 #####Create model 
 
 ```rails g model Person name:string```
